@@ -1,0 +1,32 @@
+/* @import url('../../assets/css/globals.css'); */
+
+.text{
+padding: 40px 0 0 0;
+}
+.box-title {
+  width: 400px;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+}
+.box-title p.first-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.box-title h2.second-title {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--Oswald);
+  text-transform: uppercase;
+}
+.text > p {
+  width: 75%;
+  margin: auto;
+  font-size: 17px;
+  line-height: 15px;
+  color: var(--grayColor);
+  font-family: var(--Poppins);
+  text-align: center;
+  padding-bottom: 15px;
+}

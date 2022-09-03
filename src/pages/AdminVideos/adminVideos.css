@@ -1,0 +1,37 @@
+@import url("../../assets/css/globals.css");
+
+.upload-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 65px);
+  background: linear-gradient(to right, #9bb1d5 , #afc9f0);
+}
+.drag-area {
+  border: 2px dashed #fff;
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active {
+  border: 2px solid #fff;
+}
+.drag-area .icon {
+  font-size: 130px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+button[name="save"] {
+    padding: 5px 20px;
+}

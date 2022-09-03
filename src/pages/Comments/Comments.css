@@ -1,0 +1,40 @@
+@import url("../../assets/css/globals.css");
+
+.comment {
+    background: linear-gradient(to right, #9bb1d5 , #afc9f0);
+    padding: 50px 0;
+}
+
+.comment-title {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.comment-form {
+    width: 50%;
+    margin: 50px auto 60px auto;
+}
+
+.comment-table{
+    color: rgb(49, 94, 143);
+    background: linear-gradient(to right, rgb(208, 208, 203), #afb3bc);
+}
+@media (max-width:390px){
+    
+#comments {
+    transform: translate(0%, 0%) !important;
+
+}
+#commentinput{
+    width: fit-content;
+}
+#commentsform{
+    padding:0px
+}
+#commentstable{
+    width:361px;
+}
+#commentstitle{
+    margin-left:75px;
+}
+}

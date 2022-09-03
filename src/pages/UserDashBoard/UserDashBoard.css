@@ -1,0 +1,40 @@
+@import url("../../assets/css/globals.css");
+
+.dashboard {
+  height: calc(100vh - 65px);
+  background: linear-gradient(to right, #9bb1d5 , #afc9f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard .dash-item {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+
+}
+
+.dash-item-content {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.dash-item-content svg {
+  font-size: 62px ;
+}
+
+
+@media (max-width: 390px) {
+  #rows{
+  
+   padding-top: 268px;
+  }
+  #dashboarditem1, #dashboarditem2{
+    padding-left: 50px;
+   padding-bottom:10px ;
+  }
+}
+

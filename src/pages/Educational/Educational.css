@@ -1,0 +1,59 @@
+
+@import url('../../assets/css/globals.css');
+
+
+.educational{
+  background: linear-gradient(to right, #9bb1d5 , #afc9f0);
+}
+
+.members {
+  margin: 50px 0;
+}
+.members .overlay ul li {
+  margin-bottom: 20px;
+}
+.members .overlay ul li i {
+  font-size: 30px;
+}
+.members .overlay ul li:hover i {
+ color: var(--primaryColor);
+}
+.member-img {
+  position: relative;
+}
+.member-img:hover .overlay {
+  visibility: visible;
+}
+.namestyle {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  font-family: var(--montserratFont);
+}
+
+.ml-20 {
+  margin-left: 20px;;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+@media  screen and (max-width: 390px) {
+  #educcontent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(238px,1fr));
+    gap: 21px;
+    }
+    #image1{
+      padding-left: 34px;
+    }
+    #image2{
+      padding-left: 15px;
+    }
+    #videobutton{
+      padding-left: 200px;
+    } 
+    #audiobutton{
+      padding-left: 200px;
+    }
+  } 
+  

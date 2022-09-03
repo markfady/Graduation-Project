@@ -1,0 +1,17 @@
+.leaflet-container {
+    width: 100vw; 
+    height: 100vh;
+    box-sizing: content-box !important;
+    border: none !important;
+  }
+  .page-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+  }
+  .content-wrap{
+  flex:1;
+  }
+#Image1 , #Image2 {
+  width: 120px;
+}

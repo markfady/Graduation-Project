@@ -1,0 +1,134 @@
+@import url("../../assets/css/globals.css");
+
+.transportaion{
+  background: linear-gradient(to right, #9bb1d5 , #afc9f0);
+}
+.transportaion .title-box {
+
+  width: 500px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.transportaion .title-box .title {
+  color: var(--CyanColor);
+}
+
+.transportaion .title-box .second-title {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.booking {
+  background-image: url("../../assets/images/RequestRideCroped.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  margin: 0 0 30px 0;
+}
+.booking .transbox {
+  padding: 30px;
+  height: 100%;
+  background-color: #c9c9c9;
+  opacity: 0.7;
+}
+
+.schedule {
+  height: 500px;
+  background-image: url("../../assets/images/bus2.jpg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: 100%;
+  padding: 30px;
+  margin: 0 0 30px 0;
+}
+
+.schedule .transbox {
+  padding: 30px;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+
+.dateholder,
+.input1,
+.input2 {
+  font-family: var(--Poppins);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 12px;
+  padding-left: 50px;
+  background-size: 30px;
+  border-radius: 8px;
+}
+
+.dateholder {
+  background-image: url("../../assets/images/calendar.svg");
+  background-size: 20px;
+}
+
+.input1 {
+  background-image: url("../../assets/images/from-icon.svg");
+}
+.input2 {
+  background-image: url("../../assets/images/going-icon.svg");
+}
+
+.submit-btn {
+  display: block;
+  visibility: hidden;
+}
+.info {
+  margin-top: 70px;
+  color: black;
+}
+
+.info .arrive,
+.info .comfort,
+.info .tracking {
+  width: 300px;
+}
+
+.info .arrive img {
+  width: 43%;
+}
+.info .comfort img {
+  width: 22%;
+}
+.info .tracking img {
+  width: 43%;
+}
+
+.info .content {
+  margin-top: 20px;
+}
+label,
+.info .content p {
+  font-weight: bold;
+  color: #000;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media  (max-width: 390px) {
+  #grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(23px, 1fr)) !important;
+    gap: 0px !important;
+}
+
+  #dateholder , #goingto  , #Departure{
+ width: fit-content !important;
+    }
+    #bus{
+      padding-right: 155px;
+    }
+  #title{
+    padding-right: 98px;
+  }
+ 
+  
+} 
